@@ -162,3 +162,20 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Model checkpoints and generated outputs
+model_outputs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Temporary files
+/tmp/
